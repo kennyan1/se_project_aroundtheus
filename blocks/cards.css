@@ -1,0 +1,61 @@
+.cards{
+    margin-top: 51px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+
+}
+
+.cards__list {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, 282px);
+    grid-gap: 20px 17px;
+    padding: 0;
+    margin: 0;
+}
+
+.card__image{
+    width:282px;
+    height: 282px;
+    border-radius: 10px 10px 0 0;
+}
+
+.card__description{
+    display: flex;
+    background-color: #fff;
+    color: #000;
+    padding: 25px 20px 25px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 0 0 10px 10px;
+    margin: 0;
+
+}
+
+.card__list-button {
+    background: transparent url(../images/VectorcardlikeInactive.svg) center no-repeat;
+    width: 21px;
+    height: 18px;
+    border: none;
+    padding: 0;
+}
+
+.card__list-button:hover{
+    opacity: 60%;
+    color: #fff;
+}
+
+.cards__list-description {
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 29px;
+    max-width: 219px;
+    max-height: 29px;
+    margin: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
