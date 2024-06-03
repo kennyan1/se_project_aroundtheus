@@ -19,6 +19,9 @@
 }
 
 @media screen and (max-width:480px){
+    .page{
+        overflow: hidden;
+    }
     .page__content{
         display: flex;
         align-items: center;
