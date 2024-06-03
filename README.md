@@ -9,4 +9,4 @@
 4.Grid
 5.Flexbox
 
-# Github link: https://github.com/kennyan1/se_project_aroundtheus, https://github.com/kennyan1
+# Github link: https://github.com/kennyan1/se_project_aroundtheus, https://kennyan1.github.io/se_project_aroundtheus/
