@@ -6,7 +6,6 @@
     display: flex;
     flex-direction: column;
     list-style: none;
-
 }
 
 .cards__list {
@@ -33,7 +32,6 @@
     justify-content: space-between;
     border-radius: 0 0 10px 10px;
     margin: 0;
-
 }
 
 .card__list-button {
@@ -42,11 +40,11 @@
     height: 18px;
     border: none;
     padding: 0;
+    cursor: pointer;
 }
 
 .card__list-button:hover{
-    opacity: 60%;
-    color: #fff;
+    opacity: 50%; 
 }
 
 .cards__list-description {
@@ -54,19 +52,20 @@
     font-weight: 900;
     line-height: 29px;
     max-width: 219px;
-    max-height: 29px;
     margin: 0;
     white-space: nowrap;
     text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 @media screen and (max-width:480px){
     .cards__list{
-        padding: 0;
-        margin: 36px auto 0;
         max-width: 282px;
         display: flex;
-        
         flex-wrap: wrap;
+    }
+
+    .cards{
+        margin-top: 36px 0;
     }
 }
