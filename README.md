@@ -9,4 +9,6 @@
 4.Grid
 5.Flexbox
 
-# Github link: https://github.com/kennyan1/se_project_aroundtheus, https://kennyan1.github.io/se_project_aroundtheus/
+# Github link: https://github.com/kennyan1/se_project_aroundtheus, https://kennyan1.github.io/se_project_aroundtheus/ 
+
+# Video self recording: https://drive.google.com/file/d/1XrxvHqN69J8qxMBvlyAjp0aZ0HNO9CSb/view?usp=sharing
