@@ -19,16 +19,11 @@
     padding: 0 20px;
 }
 
-@media  (max-width:800px) {
-    .page__content {
-      padding: 0;
-    }
-  }
-
 @media screen and (max-width:480px){
     .page__content{
         align-items: center;
         justify-content: center;
+        padding: 0;
     }
     .page__section{
         max-width: calc(100% - 19px);
