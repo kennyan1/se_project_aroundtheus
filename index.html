@@ -27,7 +27,7 @@
         </section>
         <section class="cards page__section">
             <ul class="cards__list">
-                <li class="card">
+                <!--<li class="card">
                     <img src="./images/yosemite.jpg" alt="Yosemite" class="card__image">
                     <div class="card__description"><h2 class="cards__list-description">Yosemite Valley</h2>
                     <button type="button" class="card__list-button"></button>
@@ -62,7 +62,7 @@
                     <div class="card__description"><h2 class="cards__list-description">Lago di Braies</h2>
                     <button type="button" class="card__list-button"></button>
                     </div>
-                </li>
+                </li>-->
             </ul>
         </section>
 
@@ -74,15 +74,26 @@
 </div>
 <div class="modal" id="profile-edit-modal">
     <div class="modal__container">
-        <button class="modal__close" id="modal-profile-close"></button>
+        <button class="modal__close"></button>
        <p class="modal__heading">Edit Profile</p>
          <form class="modal__form">
-           <input placeholder="Jacques Cousteau" type="text" class="modal__form-input" name="title">
-           <input placeholder="Explorer" type="text" class="modal__form-input" name="description">
+           <input placeholder="Jacques Cousteau" type="text" id="profile-title-input" class="modal__form-input" name="title">
+           <input placeholder="Explorer" type="text" id="profile-description-input" class="modal__form-input" name="description">
            <button class="modal__button">Save</button>
         </form>
     </div>
 </div>
+
+<template id="card-template">
+    <li class="card">
+        <img src="" alt="" class="card__image">
+        <div class="card__description">
+        <h2 class="cards__list-description"></h2>
+        <button type="button" class="card__list-button"></button>
+        </div>
+    </li>
+</template>
+
 <script src="./scripts/index.js"></script>
     </body>
 </html>
